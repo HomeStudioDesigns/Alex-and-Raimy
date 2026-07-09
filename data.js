@@ -278,6 +278,82 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": []
+    },
+    {
+      "id": "9-bed-01",
+      "name": "Bed 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6682287783081664,
+          "pitch": 0.5371415238500195,
+          "rotation": 0,
+          "target": "10-bed-02"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-bed-02",
+      "name": "Bed 02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.05545753832995004,
+          "pitch": 0.21818687871629905,
+          "rotation": 0,
+          "target": "9-bed-01"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
   "name": "Alex and Raimy",
